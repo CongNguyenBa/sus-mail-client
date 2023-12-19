@@ -1,0 +1,40 @@
+{
+    "NAME": "",
+    "USERNAME": "",
+    "PASSWORD": "",
+    "HOST": "",
+    "SMTP": 25,
+    "POP3": 35,
+    "SYNC_INTERVAL": 30,
+    "FILTER": {
+        "From": {
+            "Which": [
+                "random@m.net",
+            ],
+            "Folder": "Project"
+        },
+        "Subject": {
+            "Which": [
+                "urgent",
+                "asap",
+                "emergency"
+            ],
+            "Folder": "Important"
+        },
+        "Content": {
+            "Which": [
+                "report",
+                "meeting"
+            ],
+            "Folder": "Work"
+        },
+        "Spam": {
+            "Which": [
+                "virus",
+                "hack",
+                "ad"
+            ],
+            "Folder": "Spam"
+        }
+    }
+}
